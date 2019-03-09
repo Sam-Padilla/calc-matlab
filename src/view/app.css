@@ -1,0 +1,11 @@
+.app {
+}
+
+.app__io{
+    -fx-background-color: #34404F;
+}
+
+.app__buttons {
+    -fx-background-color: #3C4857;
+}
+

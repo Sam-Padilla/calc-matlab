@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="410.0" prefWidth="875.0" styleClass="app" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AppController">
+    <stylesheets>
+        <URL value="@app.css" />
+    </stylesheets>
+   <children>
+      <AnchorPane layoutX="0.0" layoutY="00" prefHeight="128.0" prefWidth="875.0" styleClass="app__io" />
+      <AnchorPane layoutX="0.0" layoutY="128.0" prefHeight="282.0" prefWidth="875.0" styleClass="app__buttons" />
+   </children>
+</AnchorPane>
