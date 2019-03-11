@@ -13,6 +13,47 @@
     </stylesheets>
    <children>
       <AnchorPane layoutX="0.0" layoutY="00" prefHeight="128.0" prefWidth="875.0" styleClass="app__io" />
-      <AnchorPane layoutX="0.0" layoutY="128.0" prefHeight="282.0" prefWidth="875.0" styleClass="app__buttons" />
+      <AnchorPane layoutX="0.0" layoutY="128.0" prefHeight="282.0" prefWidth="875.0" styleClass="app__buttons">
+         <children>
+            <Button styleClass="buttons__button" layoutX="25.0" layoutY="25.0"  mnemonicParsing="false" text="P+" />
+            <Button styleClass="buttons__button" layoutX="25.0" layoutY="85.0"  mnemonicParsing="false" text="P-" />
+            <Button styleClass="buttons__button" layoutX="25.0" layoutY="145.0"  mnemonicParsing="false" text="P*" />
+            <Button styleClass="buttons__button" layoutX="25.0" layoutY="205.0"  mnemonicParsing="false" text="P÷" />
+            
+            <Button styleClass="buttons__button" layoutX="130.0" layoutY="25.0"  mnemonicParsing="false" text="E" />
+            <Button styleClass="buttons__button" layoutX="130.0" layoutY="85.0"  mnemonicParsing="false" text="E²" />
+            <Button styleClass="buttons__button" layoutX="130.0" layoutY="145.0"  mnemonicParsing="false" text="SE(2x)" />
+            <Button styleClass="buttons__button" layoutX="130.0" layoutY="205.0"  mnemonicParsing="false" text="SE(3x)" />
+            
+            <Button styleClass="buttons__button" layoutX="235.0" layoutY="25.0"  mnemonicParsing="false" text="I" />
+            <Button styleClass="buttons__button" layoutX="235.0" layoutY="85.0"  mnemonicParsing="false" text="I(def)" />
+            <Button styleClass="buttons__button" layoutX="235.0" layoutY="145.0"  mnemonicParsing="false" text="D" />
+            <Button styleClass="buttons__button" layoutX="235.0" layoutY="205.0"  mnemonicParsing="false" text="D(def)" />
+            
+            <Button styleClass="buttons__button" layoutX="340.0" layoutY="25.0"  mnemonicParsing="false" text="P+" />
+            <Button styleClass="buttons__button" layoutX="340.0" layoutY="85.0"  mnemonicParsing="false" text="P+" />
+            <Button styleClass="buttons__button" layoutX="340.0" layoutY="145.0"  mnemonicParsing="false" text="P+" />
+            <Button styleClass="buttons__button" layoutX="340.0" layoutY="205.0"  mnemonicParsing="false" text="C" />
+            
+            <Button styleClass="buttons__button" layoutX="445.0" layoutY="25.0"  mnemonicParsing="false" text="7" />
+            <Button styleClass="buttons__button" layoutX="445.0" layoutY="85.0"  mnemonicParsing="false" text="4" />
+            <Button styleClass="buttons__button" layoutX="445.0" layoutY="145.0"  mnemonicParsing="false" text="1" />
+            <Button styleClass="buttons__button" layoutX="445.0" layoutY="205.0"  mnemonicParsing="false" text="=" />
+            
+            <Button styleClass="buttons__button" layoutX="550.0" layoutY="25.0"  mnemonicParsing="false" text="8" />
+            <Button styleClass="buttons__button" layoutX="550.0" layoutY="85.0"  mnemonicParsing="false" text="5" />
+            <Button styleClass="buttons__button" layoutX="550.0" layoutY="145.0"  mnemonicParsing="false" text="2" />
+            <Button styleClass="buttons__button" layoutX="550.0" layoutY="205.0"  mnemonicParsing="false" text="." />
+            
+            <Button styleClass="buttons__button" layoutX="655.0" layoutY="25.0"  mnemonicParsing="false" text="9" />
+            <Button styleClass="buttons__button" layoutX="655.0" layoutY="85.0"  mnemonicParsing="false" text="6" />
+            <Button styleClass="buttons__button" layoutX="655.0" layoutY="145.0"  mnemonicParsing="false" text="3" />
+            <Button styleClass="buttons__button" layoutX="655.0" layoutY="205.0"  mnemonicParsing="false" text="0" />
+            
+            <Button styleClass="buttons__button" layoutX="760.0" layoutY="25.0"  mnemonicParsing="false" text="+" />
+            <Button styleClass="buttons__button" layoutX="760.0" layoutY="85.0"  mnemonicParsing="false" text="-" />
+            <Button styleClass="buttons__button" layoutX="760.0" layoutY="145.0"  mnemonicParsing="false" text="*" />
+            <Button styleClass="buttons__button" layoutX="760.0" layoutY="205.0"  mnemonicParsing="false" text="÷" />
+         </children></AnchorPane>
    </children>
 </AnchorPane>

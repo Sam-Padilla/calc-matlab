@@ -8,4 +8,21 @@
 .app__buttons {
     -fx-background-color: #3C4857;
 }
+    
+.buttons__button{
+    -fx-background-color: #425062;
+    -fx-text-fill: aliceblue;
+    -fx-font: 20px arial;
+    -fx-pref-width: 95;
+    -fx-pref-height : 50;
+}
 
+.buttons__button:hover{
+    -fx-border-width: 2;
+    -fx-border-color: #54667D;
+}
+
+.buttons__button:pressed{
+   -fx-background-color: #475669;
+
+}
