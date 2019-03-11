@@ -7,7 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="410.0" prefWidth="875.0" styleClass="app" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AppController">
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" id="AnchorPane" prefHeight="410.0" prefWidth="875.0" styleClass="app" xmlns="http://javafx.com/javafx/8" fx:controller="controller.AppController">
     <stylesheets>
         <URL value="@app.css" />
     </stylesheets>
@@ -40,7 +40,7 @@
             <Button styleClass="buttons__button" layoutX="445.0" layoutY="145.0"  mnemonicParsing="false" text="1" />
             <Button styleClass="buttons__button" layoutX="445.0" layoutY="205.0"  mnemonicParsing="false" text="=" />
             
-            <Button styleClass="buttons__button" layoutX="550.0" layoutY="25.0"  mnemonicParsing="false" text="8" />
+            <Button styleClass="buttons__button" onAction="#button8Click" layoutX="550.0" layoutY="25.0"  mnemonicParsing="false" text="8" />
             <Button styleClass="buttons__button" layoutX="550.0" layoutY="85.0"  mnemonicParsing="false" text="5" />
             <Button styleClass="buttons__button" layoutX="550.0" layoutY="145.0"  mnemonicParsing="false" text="2" />
             <Button styleClass="buttons__button" layoutX="550.0" layoutY="205.0"  mnemonicParsing="false" text="." />
