@@ -1,12 +1,28 @@
 package controller;
 
+
+import com.mathworks.engine.MatlabEngine;
 import java.io.IOException;
+import java.io.StringWriter;
+import java.util.concurrent.ExecutionException;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 public class AppController {
+    
+   private String matlabEval(String data){
+       String result = "";
+       try{
+           MatlabEngine matlabEngine = MatlabEngine.startMatlab();
+           StringWriter output = new StringWriter();
+           matlabEngine.eval(data,output,null);
+       }catch(IllegalArgumentException | IllegalStateException | InterruptedException | ExecutionException e){
+           return e.getMessage();
+       }
+       return result;
+   }
     
     @FXML private Label ioCurrent;  
     @FXML private Label ioLast;
@@ -176,12 +192,12 @@ public class AppController {
         
     @FXML public void buttonCClick(ActionEvent event) throws IOException{
         ioCurrent.setText("");
+        ioLast.setText("");
     }
     
      @FXML public void buttonEqualsClick(ActionEvent event) throws IOException{
-        ioCurrent.getText();
         ioLast.setText(ioCurrent.getText());
-        String result = "result"; //TODO matlab method
+        String result = matlabEval(ioCurrent.getText());
         ioCurrent.setText(result);
         
     }
