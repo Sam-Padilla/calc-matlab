@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="calc-matlab">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/calc-matlab.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

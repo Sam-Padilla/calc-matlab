@@ -18,6 +18,7 @@ public class AppController {
            MatlabEngine matlabEngine = MatlabEngine.startMatlab();
            StringWriter output = new StringWriter();
            matlabEngine.eval(data,output,null);
+           result = output.toString();
        }catch(IllegalArgumentException | IllegalStateException | InterruptedException | ExecutionException e){
            return e.getMessage();
        }
