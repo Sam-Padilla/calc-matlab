@@ -9,7 +9,7 @@ public class Main extends Application {
 
     public void sceneInitializer(Stage stage, String resource) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource(resource));
-        Scene mainScene = new Scene(root, 875, 410);
+        Scene mainScene = new Scene(root, 865, 400);
         stage.setTitle("Matlab Calc");
         stage.setScene(mainScene);
         stage.setResizable(false);

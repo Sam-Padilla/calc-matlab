@@ -1,0 +1,56 @@
+.app {
+}
+
+.app__io{
+    -fx-background-color: #34404F;
+}
+
+.io__current{
+    -fx-font: 48px arial;
+    -fx-text-fill: aliceblue;
+    -fx-alignment: CENTER_RIGHT;
+}
+
+.io__last{
+    -fx-alignment: CENTER_RIGHT;
+    -fx-font: 25px arial;
+    -fx-text-fill: #60646B;
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: #60646B;
+}
+
+.app__buttons {
+    -fx-background-color: #3C4857;
+}
+    
+.buttons__button{
+    -fx-background-color: #425062;
+    -fx-text-fill: aliceblue;
+    -fx-font: 20px arial;
+    -fx-pref-width: 95;
+    -fx-pref-height : 50;
+}
+
+.buttons__button:hover{
+    -fx-border-width: 2;
+    -fx-border-color: #54667D;
+}
+
+.buttons__button:pressed{
+   -fx-background-color: #475669;
+
+}
+
+.buttons__button-equals{
+    -fx-background-color: #C35E27;
+}
+
+.buttons__button-equals:hover{
+    -fx-border-width: 2;
+    -fx-border-color: #DA7A46;
+}
+
+.buttons__button-equals:pressed{
+   -fx-background-color: #CE6329;
+
+}
