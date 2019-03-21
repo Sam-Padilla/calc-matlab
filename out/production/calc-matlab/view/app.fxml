@@ -24,10 +24,10 @@
             <Button layoutX="25.0" layoutY="145.0" mnemonicParsing="false" onAction="#buttonLogClick" styleClass="buttons__button" text="Log" />
             <Button layoutX="25.0" layoutY="205.0" mnemonicParsing="false" onAction="#buttonFactClick" styleClass="buttons__button" text="!" />
             
-            <Button layoutX="130.0" layoutY="25.0" mnemonicParsing="false" onAction="#buttonEClick" styleClass="buttons__button" text="E" />
-            <Button layoutX="130.0" layoutY="85.0" mnemonicParsing="false" onAction="#buttonESquaredClick" styleClass="buttons__button" text="E²" />
-            <Button layoutX="130.0" layoutY="145.0" mnemonicParsing="false" onAction="#buttonSE2xClick" styleClass="buttons__button" text="SE(2x)" />
-            <Button layoutX="130.0" layoutY="205.0" mnemonicParsing="false" onAction="#buttonSE3xClick" styleClass="buttons__button" text="SE(3x)" />
+            <Button layoutX="130.0" layoutY="25.0" mnemonicParsing="false" onAction="#buttonESquaredClick" styleClass="buttons__button" text="E²" />
+            <Button layoutX="130.0" layoutY="85.0" mnemonicParsing="false" onAction="#buttonSE2xClick" styleClass="buttons__button" text="SE(2x)" />
+            <Button layoutX="130.0" layoutY="145.0" mnemonicParsing="false" onAction="#buttonIDefClick" styleClass="buttons__button" text="Idef" />
+            <Button layoutX="130.0" layoutY="205.0" mnemonicParsing="false" onAction="#buttonnDClick" styleClass="buttons__button" text="nd" />
             
             <Button layoutX="235.0" layoutY="25.0" mnemonicParsing="false" onAction="#buttonIClick" styleClass="buttons__button" text="I" />
             <Button layoutX="235.0" layoutY="85.0" mnemonicParsing="false" onAction="#buttonIDefClick" styleClass="buttons__button" text="I(def)" />

@@ -42,14 +42,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="fxml" value="24" />
-          <entry key="java" value="1009" />
+          <entry key="fxml" value="51" />
+          <entry key="java" value="1683" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1009" />
-          <entry key="XML" value="24" />
+          <entry key="JAVA" value="1683" />
+          <entry key="XML" value="51" />
         </counts>
       </usages-collector>
     </session>
@@ -59,22 +59,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controller/AppController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+            <state relative-caret-position="315">
+              <caret line="108" column="71" selection-start-line="108" selection-start-column="71" selection-end-line="108" selection-end-column="71" />
               <folding>
                 <element signature="e#510#1084#0" />
                 <element signature="e#1102#1258#0" />
-                <element signature="e#1609#1717#0" />
-                <element signature="e#1261#1440#0" />
+                <element signature="e#1229#1667#0" />
+                <element signature="e#1229#2004#0" />
+                <element signature="e#1229#1331#0" />
+                <element signature="e#1336#1437#0" />
                 <element signature="e#1900#2014#0" />
-                <element signature="e#1657#1830#0" />
-                <element signature="e#1840#2020#0" />
-                <element signature="e#2030#2206#0" />
-                <element signature="e#2216#2392#0" />
+                <element signature="e#2782#3568#0" />
+                <element signature="e#3472#4128#0" />
                 <element signature="e#2418#2591#0" />
                 <element signature="e#2601#2777#0" />
                 <element signature="e#2787#2960#0" />
                 <element signature="e#2970#3146#0" />
+                <element signature="e#4360#4469#0" />
                 <element signature="e#3383#3462#0" />
                 <element signature="e#3785#3994#0" />
                 <element signature="e#4014#4208#0" />
@@ -92,6 +93,7 @@
                 <element signature="e#6547#6753#0" />
                 <element signature="e#6764#6962#0" />
                 <element signature="e#6976#7110#0" />
+                <element signature="e#9003#9221#0" />
               </folding>
             </state>
           </provider>
@@ -107,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/app.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="21" column="94" selection-start-line="21" selection-start-column="94" selection-end-line="21" selection-end-column="94" />
+            <state relative-caret-position="470">
+              <caret line="29" column="139" selection-start-line="29" selection-start-column="139" selection-end-line="29" selection-end-column="139" />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -190,7 +192,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553130218388" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553135975075" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -239,12 +241,12 @@
       <workItem from="1553110710027" duration="284000" />
       <workItem from="1553115381510" duration="513000" />
       <workItem from="1553115924804" duration="1240000" />
-      <workItem from="1553117196851" duration="10135000" />
+      <workItem from="1553117196851" duration="16284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12876000" />
+    <option name="totallyTimeSpent" value="19025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -291,7 +293,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/controller/AppController.java</url>
-          <line>167</line>
+          <line>179</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -306,11 +308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -318,32 +315,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/app.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="21" column="94" selection-start-line="21" selection-start-column="94" selection-end-line="21" selection-end-column="94" />
+        <state relative-caret-position="470">
+          <caret line="29" column="139" selection-start-line="29" selection-start-column="139" selection-end-line="29" selection-end-column="139" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="108" column="71" selection-start-line="108" selection-start-column="71" selection-end-line="108" selection-end-column="71" />
           <folding>
             <element signature="e#510#1084#0" />
             <element signature="e#1102#1258#0" />
-            <element signature="e#1609#1717#0" />
-            <element signature="e#1261#1440#0" />
+            <element signature="e#1229#1667#0" />
+            <element signature="e#1229#2004#0" />
+            <element signature="e#1229#1331#0" />
+            <element signature="e#1336#1437#0" />
             <element signature="e#1900#2014#0" />
-            <element signature="e#1657#1830#0" />
-            <element signature="e#1840#2020#0" />
-            <element signature="e#2030#2206#0" />
-            <element signature="e#2216#2392#0" />
+            <element signature="e#2782#3568#0" />
+            <element signature="e#3472#4128#0" />
             <element signature="e#2418#2591#0" />
             <element signature="e#2601#2777#0" />
             <element signature="e#2787#2960#0" />
             <element signature="e#2970#3146#0" />
+            <element signature="e#4360#4469#0" />
             <element signature="e#3383#3462#0" />
             <element signature="e#3785#3994#0" />
             <element signature="e#4014#4208#0" />
@@ -361,6 +364,7 @@
             <element signature="e#6547#6753#0" />
             <element signature="e#6764#6962#0" />
             <element signature="e#6976#7110#0" />
+            <element signature="e#9003#9221#0" />
           </folding>
         </state>
       </provider>

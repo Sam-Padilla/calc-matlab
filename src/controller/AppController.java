@@ -36,7 +36,7 @@ public class AppController {
             ioCurrent.setStyle("-fx-font-size: 28.0");
         }
     }
-    private void ioWriter(String functionName){
+    private void ioSimpleWriter(String functionName){
        Dialog dialog = new TextInputDialog("");
        dialog.setHeaderText(null);
        dialog.setContentText("Ingresa el valor a evaluar");
@@ -45,6 +45,18 @@ public class AppController {
           ioCurrent.setText(ioCurrent.getText() + functionName + "(" + result.get() + ") ");
           ioCurrentSizeChanger();
        }
+    }
+    private String[] ioArrayResults(String[] rows){
+        for (int i = 0; i < rows.length; i++) {
+            Dialog dialog = new TextInputDialog("");
+            dialog.setHeaderText(null);
+            dialog.setContentText("Ingrese el valor de " + rows[i]);
+            String result = ((Optional<String>) dialog.showAndWait()).get();
+            if (!result.equals("") || !result.equals(" ")) {
+                rows[i] = result;
+            }
+        }
+        return rows;
     }
     //----
     @FXML public void buttonM33Click(ActionEvent event) throws IOException{
@@ -63,40 +75,40 @@ public class AppController {
         }
         matlabEval(function);
         ioCurrent.setText(matlabEval( function.replace("plot", "det")));
-
     }
     @FXML public void buttonSenClick(ActionEvent event) throws IOException{
-        ioWriter("sin");
+        ioSimpleWriter("sin");
     }
     @FXML public void buttonLogClick(ActionEvent event) throws IOException{
-       ioWriter("log");
+       ioSimpleWriter("log");
     }
     @FXML public void buttonFactClick(ActionEvent event) throws IOException{
-       ioWriter("factorial");
+       ioSimpleWriter("factorial");
     }
-
     //----
-
-    @FXML public void buttonEClick(ActionEvent event) throws IOException{
-        Button button = (Button) event.getSource();
-        System.out.println(button.getText());
-    }
-
     @FXML public void buttonESquaredClick(ActionEvent event) throws IOException{
-        Button button = (Button) event.getSource();
-        System.out.println(button.getText());
+        String[] rows = ioArrayResults(new String[]{"ax²","bx","c"});
+        String function = "syms x; solve("+rows[0] + "*x^2+" + rows[1] + "*x+" + rows[2] + ")";
+        ioCurrent.setText(matlabEval(function));
     }
-
     @FXML public void buttonSE2xClick(ActionEvent event) throws IOException{
-        Button button = (Button) event.getSource();
-        System.out.println(button.getText());
+        String[] rows = ioArrayResults(new String[]{"X1", "Y1", "Z1", "X2", "Y2", "Z2"});
+        String function = "S = solve('" + rows[0]+"*x+" + rows[1] + "*y=" + rows[2] + "',"
+                                  + "'" + rows[3]+"*x+" + rows[4] + "*y=" + rows[5] + "');"
+                                  + "S = [S.x S.y]";
+        String text = matlabEval(function);
+        ioCurrent.setText(text.substring(text.indexOf("[")));
     }
-
-    @FXML public void buttonSE3xClick(ActionEvent event) throws IOException{
-        Button button = (Button) event.getSource();
-        System.out.println(button.getText());
+    @FXML public void buttonIDefClick(ActionEvent event) throws IOException{
+        String[] rows = ioArrayResults(new String[]{"la funcion","lim-", "lim+"});
+        String function = "syms x; int("+rows[0] +",x," + rows[1] +"," + rows[2] + ")";
+        ioCurrent.setText(matlabEval(function));
     }
-
+    @FXML public void buttonnDClick(ActionEvent event) throws IOException{
+        String[] rows = ioArrayResults(new String[]{"la funcion (x)","orden de derivada"});
+        String function = "syms x; diff("+rows[0] +"," + rows[1] + ")";
+        ioCurrent.setText(matlabEval(function));
+    }
     //----
 
     @FXML public void buttonIClick(ActionEvent event) throws IOException{
@@ -104,7 +116,7 @@ public class AppController {
         System.out.println(button.getText());
     }
 
-    @FXML public void buttonIDefClick(ActionEvent event) throws IOException{
+    @FXML public void buttonIDesClick(ActionEvent event) throws IOException{
         Button button = (Button) event.getSource();
         System.out.println(button.getText());
     }
@@ -122,7 +134,7 @@ public class AppController {
     //----
 
     @FXML public void buttonUndefinedClick(ActionEvent event) throws IOException{
-        ioWriter("plot");
+        ioSimpleWriter("plot");
     }
 
     //@FXML public void buttonUndefinedClick(ActionEvent event) throws IOException{
