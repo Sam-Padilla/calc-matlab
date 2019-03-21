@@ -20,49 +20,49 @@
       <AnchorPane layoutX="0.0" layoutY="128.0" prefHeight="282.0" prefWidth="875.0" styleClass="app__buttons">
          <children>
 
-            <Label  layoutX="35.0" layoutY="9.0" mnemonicParsing="false" styleClass="buttons__tag" text="Álgebra"/>
-            <Button layoutX="25.0" layoutY="25.0" mnemonicParsing="false" onAction="#buttonM33Click" styleClass="buttons__button" text="DM3*3" />
-            <Button layoutX="25.0" layoutY="85.0" mnemonicParsing="false" onAction="#buttonSenClick" styleClass="buttons__button" text="Sen" />
-            <Button layoutX="25.0" layoutY="145.0" mnemonicParsing="false" onAction="#buttonLogClick" styleClass="buttons__button" text="Log" />
-            <Button layoutX="25.0" layoutY="205.0" mnemonicParsing="false" onAction="#buttonFactClick" styleClass="buttons__button" text="!" />
+            <Label  layoutX="35.0" layoutY="14.0" mnemonicParsing="false" styleClass="buttons__tag" text="Álgebra"/>
+            <Button layoutX="25.0" layoutY="30.0" mnemonicParsing="false" onAction="#buttonM33Click" styleClass="buttons__button" text="DM3*3" />
+            <Button layoutX="25.0" layoutY="90.0" mnemonicParsing="false" onAction="#buttonSenClick" styleClass="buttons__button" text="Sen" />
+            <Button layoutX="25.0" layoutY="155.0" mnemonicParsing="false" onAction="#buttonLogClick" styleClass="buttons__button" text="Log" />
+            <Button layoutX="25.0" layoutY="215.0" mnemonicParsing="false" onAction="#buttonFactClick" styleClass="buttons__button" text="!" />
 
             <Label  layoutX="140.0" layoutY="9.0" mnemonicParsing="false" styleClass="buttons__tag" text="Cálculo"/>
-            <Button layoutX="130.0" layoutY="25.0" mnemonicParsing="false" onAction="#buttonESquaredClick" styleClass="buttons__button" text="E²" />
-            <Button layoutX="130.0" layoutY="85.0" mnemonicParsing="false" onAction="#buttonSE2xClick" styleClass="buttons__button" text="SE(2x)" />
-            <Button layoutX="130.0" layoutY="145.0" mnemonicParsing="false" onAction="#buttonIDefClick" styleClass="buttons__button" text="Idef" />
-            <Button layoutX="130.0" layoutY="205.0" mnemonicParsing="false" onAction="#buttonnDClick" styleClass="buttons__button" text="nd" />
+            <Button layoutX="130.0" layoutY="30.0" mnemonicParsing="false" onAction="#buttonESquaredClick" styleClass="buttons__button" text="E²" />
+            <Button layoutX="130.0" layoutY="90.0" mnemonicParsing="false" onAction="#buttonSE2xClick" styleClass="buttons__button" text="SE(2x)" />
+            <Button layoutX="130.0" layoutY="155.0" mnemonicParsing="false" onAction="#buttonIDefClick" styleClass="buttons__button" text="Idef" />
+            <Button layoutX="130.0" layoutY="215.0" mnemonicParsing="false" onAction="#buttonnDClick" styleClass="buttons__button" text="nd" />
 
-            <Label  layoutX="245.0" layoutY="9.0" mnemonicParsing="false" styleClass="buttons__tag" text="Estadistica"/>
-            <Button layoutX="235.0" layoutY="25.0" mnemonicParsing="false" onAction="#buttonMeClick" styleClass="buttons__button" text="Me" />
-            <Button layoutX="235.0" layoutY="85.0" mnemonicParsing="false" onAction="#buttonDesvClick" styleClass="buttons__button" text="Desv" />
-            <Button layoutX="235.0" layoutY="145.0" mnemonicParsing="false" onAction="#buttonVariClick" styleClass="buttons__button" text="Vari" />
-            <Button layoutX="235.0" layoutY="205.0" mnemonicParsing="false" onAction="#buttonRLClick" styleClass="buttons__button" text="RL" />
+            <Label layoutX="245.0" layoutY="14.0" mnemonicParsing="false" styleClass="buttons__tag" text="Estadistica"/>
+            <Button layoutX="235.0" layoutY="30.0" mnemonicParsing="false" onAction="#buttonMeClick" styleClass="buttons__button" text="Me" />
+            <Button layoutX="235.0" layoutY="90.0" mnemonicParsing="false" onAction="#buttonDesvClick" styleClass="buttons__button" text="Desv" />
+            <Button layoutX="235.0" layoutY="155.0" mnemonicParsing="false" onAction="#buttonVariClick" styleClass="buttons__button" text="Vari" />
+            <Button layoutX="235.0" layoutY="215.0" mnemonicParsing="false" onAction="#buttonRLClick" styleClass="buttons__button" text="RL" />
 
-            <Label  layoutX="350.0" layoutY="9.0" mnemonicParsing="false" styleClass="buttons__tag" text="Gráfico"/>
-            <Button layoutX="340.0" layoutY="25.0" mnemonicParsing="false" onAction="#buttonSphClick" styleClass="buttons__button" text="Sph" />
-            <Button layoutX="340.0" layoutY="85.0" mnemonicParsing="false" onAction="#buttonLgClick" styleClass="buttons__button" text="Lg" />
-            <Button layoutX="340.0" layoutY="145.0" mnemonicParsing="false" onAction="#buttonGRClick" styleClass="buttons__button" text="GR" />
-            <Button layoutX="340.0" layoutY="205.0" mnemonicParsing="false" onAction="#buttonPlusClick" styleClass="buttons__button" text="+" />
+            <Label  layoutX="350.0" layoutY="14.0" mnemonicParsing="false" styleClass="buttons__tag" text="Gráfico"/>
+            <Button layoutX="340.0" layoutY="30.0" mnemonicParsing="false" onAction="#buttonSphClick" styleClass="buttons__button" text="Sph" />
+            <Button layoutX="340.0" layoutY="90.0" mnemonicParsing="false" onAction="#buttonLgClick" styleClass="buttons__button" text="Lg" />
+            <Button layoutX="340.0" layoutY="155.0" mnemonicParsing="false" onAction="#buttonGRClick" styleClass="buttons__button" text="GR" />
+            <Button layoutX="340.0" layoutY="215.0" mnemonicParsing="false" onAction="#buttonPlusClick" styleClass="buttons__button" text="+" />
             
-            <Button layoutX="445.0" layoutY="25.0" mnemonicParsing="false" onAction="#button7Click" styleClass="buttons__button" text="7" />
-            <Button layoutX="445.0" layoutY="85.0" mnemonicParsing="false" onAction="#button4Click" styleClass="buttons__button" text="4" />
-            <Button layoutX="445.0" layoutY="145.0" mnemonicParsing="false" onAction="#button1Click" styleClass="buttons__button" text="1" />
-            <Button layoutX="445.0" layoutY="205.0" mnemonicParsing="false" onAction="#buttonMinusClick" styleClass="buttons__button" text="-" />
+            <Button layoutX="445.0" layoutY="30.0" mnemonicParsing="false" onAction="#button7Click" styleClass="buttons__button" text="7" />
+            <Button layoutX="445.0" layoutY="90.0" mnemonicParsing="false" onAction="#button4Click" styleClass="buttons__button" text="4" />
+            <Button layoutX="445.0" layoutY="155.0" mnemonicParsing="false" onAction="#button1Click" styleClass="buttons__button" text="1" />
+            <Button layoutX="445.0" layoutY="215.0" mnemonicParsing="false" onAction="#buttonMinusClick" styleClass="buttons__button" text="-" />
             
-            <Button layoutX="550.0" layoutY="25.0" mnemonicParsing="false" onAction="#button8Click" styleClass="buttons__button" text="8" />
-            <Button layoutX="550.0" layoutY="85.0" mnemonicParsing="false" onAction="#button5Click" styleClass="buttons__button" text="5" />
-            <Button layoutX="550.0" layoutY="145.0" mnemonicParsing="false" onAction="#button2Click" styleClass="buttons__button" text="2" />
-            <Button layoutX="550.0" layoutY="205.0" mnemonicParsing="false" onAction="#buttonMultiClick" styleClass="buttons__button" text="*" />
+            <Button layoutX="550.0" layoutY="30.0" mnemonicParsing="false" onAction="#button8Click" styleClass="buttons__button" text="8" />
+            <Button layoutX="550.0" layoutY="95.0" mnemonicParsing="false" onAction="#button5Click" styleClass="buttons__button" text="5" />
+            <Button layoutX="550.0" layoutY="155.0" mnemonicParsing="false" onAction="#button2Click" styleClass="buttons__button" text="2" />
+            <Button layoutX="550.0" layoutY="215.0" mnemonicParsing="false" onAction="#buttonMultiClick" styleClass="buttons__button" text="*" />
             
-            <Button layoutX="655.0" layoutY="25.0" mnemonicParsing="false" onAction="#button9Click" styleClass="buttons__button" text="9" />
-            <Button layoutX="655.0" layoutY="85.0" mnemonicParsing="false" onAction="#button6Click" styleClass="buttons__button" text="6" />
-            <Button layoutX="655.0" layoutY="145.0" mnemonicParsing="false" onAction="#button3Click" styleClass="buttons__button" text="3" />
-            <Button layoutX="655.0" layoutY="205.0" mnemonicParsing="false" onAction="#buttonDivisionClick" styleClass="buttons__button" text="÷" />
+            <Button layoutX="655.0" layoutY="30.0" mnemonicParsing="false" onAction="#button9Click" styleClass="buttons__button" text="9" />
+            <Button layoutX="655.0" layoutY="90.0" mnemonicParsing="false" onAction="#button6Click" styleClass="buttons__button" text="6" />
+            <Button layoutX="655.0" layoutY="155.0" mnemonicParsing="false" onAction="#button3Click" styleClass="buttons__button" text="3" />
+            <Button layoutX="655.0" layoutY="215.0" mnemonicParsing="false" onAction="#buttonDivisionClick" styleClass="buttons__button" text="÷" />
             
-            <Button layoutX="760.0" layoutY="25.0" mnemonicParsing="false" onAction="#button0Click" styleClass="buttons__button" text="0" />
-            <Button layoutX="760.0" layoutY="85.0" mnemonicParsing="false" onAction="#buttonPointClick" styleClass="buttons__button" text="." />
-            <Button layoutX="760.0" layoutY="145.0" mnemonicParsing="false" onAction="#buttonCClick" styleClass="buttons__button" text="C" />
-            <Button layoutX="760.0" layoutY="205.0" mnemonicParsing="false" onAction="#buttonEqualsClick" styleClass="buttons__button, buttons__button-equals" text="=" />
+            <Button layoutX="760.0" layoutY="30.0" mnemonicParsing="false" onAction="#button0Click" styleClass="buttons__button" text="0" />
+            <Button layoutX="760.0" layoutY="90.0" mnemonicParsing="false" onAction="#buttonPointClick" styleClass="buttons__button" text="." />
+            <Button layoutX="760.0" layoutY="155.0" mnemonicParsing="false" onAction="#buttonCClick" styleClass="buttons__button" text="C" />
+            <Button layoutX="760.0" layoutY="215.0" mnemonicParsing="false" onAction="#buttonEqualsClick" styleClass="buttons__button, buttons__button-equals" text="=" />
          </children>
       </AnchorPane>
    </children>
