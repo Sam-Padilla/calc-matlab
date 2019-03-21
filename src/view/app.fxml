@@ -34,9 +34,9 @@
             <Button layoutX="235.0" layoutY="145.0" mnemonicParsing="false" onAction="#buttonVariClick" styleClass="buttons__button" text="Vari" />
             <Button layoutX="235.0" layoutY="205.0" mnemonicParsing="false" onAction="#buttonRLClick" styleClass="buttons__button" text="RL" />
             
-            <Button layoutX="340.0" layoutY="25.0" mnemonicParsing="false" onAction="#buttonUndefinedClick" styleClass="buttons__button" text="P+" />
-            <Button layoutX="340.0" layoutY="85.0" mnemonicParsing="false" onAction="#buttonUndefinedClick" styleClass="buttons__button" text="P+" />
-            <Button layoutX="340.0" layoutY="145.0" mnemonicParsing="false" onAction="#buttonUndefinedClick" styleClass="buttons__button" text="P+" />
+            <Button layoutX="340.0" layoutY="25.0" mnemonicParsing="false" onAction="#buttonSphClick" styleClass="buttons__button" text="Sph" />
+            <Button layoutX="340.0" layoutY="85.0" mnemonicParsing="false" onAction="#buttonLgClick" styleClass="buttons__button" text="Lg" />
+            <Button layoutX="340.0" layoutY="145.0" mnemonicParsing="false" onAction="#buttonGRClick" styleClass="buttons__button" text="GR" />
             <Button layoutX="340.0" layoutY="205.0" mnemonicParsing="false" onAction="#buttonPlusClick" styleClass="buttons__button" text="+" />
             
             <Button layoutX="445.0" layoutY="25.0" mnemonicParsing="false" onAction="#button7Click" styleClass="buttons__button" text="7" />

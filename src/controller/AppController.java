@@ -126,21 +126,19 @@ public class AppController {
         ioCurrent.setText(matlabEval(function));
     }
     //----
-
-    @FXML public void buttonUndefinedClick(ActionEvent event) throws IOException{
-        ioSimpleWriter("plot", "proof");
+    @FXML public void buttonSphClick(ActionEvent event) throws IOException{
+        String[] rows = ioArrayResults(new String[]{"la altura","radio"});
+        String function = "sphere("+rows[0] +"," + rows[1] + ")";
+        ioCurrent.setText(matlabEval(function));
     }
-
-    //@FXML public void buttonUndefinedClick(ActionEvent event) throws IOException{
-    //    Button button = (Button) event.getSource();
-    //    System.out.println(button.getText());
-    //}
-
-    //@FXML public void buttonUndefinedClick(ActionEvent event) throws IOException{
-    //    Button button = (Button) event.getSource();
-    //    System.out.println(button.getText());
-    //}
-
+    @FXML public void buttonLgClick(ActionEvent event) throws IOException{
+        String[] rows = ioArrayResults(new String[]{"X","Y"});
+        String function = "plot(linspace("+rows[0] +"," + rows[1] + "))";
+        ioCurrent.setText(matlabEval(function));
+    }
+    @FXML public void buttonGRClick(ActionEvent event) throws IOException{
+        ioSimpleWriter("plot", "Ingrese los puntos a graficar");
+    }
     @FXML public void buttonPlusClick(ActionEvent event) throws IOException{
         Button button = (Button) event.getSource();
         ioCurrent.setText(ioCurrent.getText() + " " + button.getText() + " ");
