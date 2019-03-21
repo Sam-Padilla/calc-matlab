@@ -58,7 +58,7 @@ public class AppController {
         }
         return rows;
     }
-    //----
+    //---- Group 1
     @FXML public void buttonM33Click(ActionEvent event) throws IOException{
         String[] rows = new String[3];
         String function = "plot([";
@@ -85,7 +85,7 @@ public class AppController {
     @FXML public void buttonFactClick(ActionEvent event) throws IOException{
        ioSimpleWriter("factorial", "Ingresa el valor a evaluar");
     }
-    //----
+    //---- Group 2
     @FXML public void buttonESquaredClick(ActionEvent event) throws IOException{
         String[] rows = ioArrayResults(new String[]{"ax²","bx","c"});
         String function = "syms x; solve("+rows[0] + "*x^2+" + rows[1] + "*x+" + rows[2] + ")";
@@ -109,7 +109,7 @@ public class AppController {
         String function = "syms x; diff("+rows[0] +"," + rows[1] + ")";
         ioCurrent.setText(matlabEval(function));
     }
-    //----
+    //---- Group 3
     @FXML public void buttonMeClick(ActionEvent event) throws IOException{
         ioSimpleWriter("median", "Ingresa el array de datos a evaluar");
     }
@@ -125,7 +125,7 @@ public class AppController {
                           "line("+rows[0] +"," + rows[1] + ")";
         ioCurrent.setText(matlabEval(function));
     }
-    //----
+    //---- Group 4
     @FXML public void buttonSphClick(ActionEvent event) throws IOException{
         String[] rows = ioArrayResults(new String[]{"la altura","radio"});
         String function = "sphere("+rows[0] +"," + rows[1] + ")";
@@ -144,88 +144,69 @@ public class AppController {
         ioCurrent.setText(ioCurrent.getText() + " " + button.getText() + " ");
     }
     //----
-
     @FXML public void button7Click(ActionEvent event) throws IOException{
         Button button = (Button) event.getSource();
         ioCurrent.setText(ioCurrent.getText() + button.getText());
     }
-
     @FXML public void button4Click(ActionEvent event) throws IOException{
         Button button = (Button) event.getSource();
         ioCurrent.setText(ioCurrent.getText() + button.getText());
     }
-
     @FXML public void button1Click(ActionEvent event) throws IOException{
         Button button = (Button) event.getSource();
         ioCurrent.setText(ioCurrent.getText() + button.getText());
     }
-
     @FXML public void buttonMinusClick(ActionEvent event) throws IOException{
         Button button = (Button) event.getSource();
         ioCurrent.setText(ioCurrent.getText() + " " + button.getText() + " ");
     }
-
-
     //----
-
     @FXML public void button8Click(ActionEvent event) throws IOException{
         Button button = (Button) event.getSource();
         ioCurrent.setText(ioCurrent.getText() + button.getText());
     }
-
     @FXML public void button5Click(ActionEvent event) throws IOException{
         Button button = (Button) event.getSource();
         ioCurrent.setText(ioCurrent.getText() + button.getText());
     }
-
     @FXML public void button2Click(ActionEvent event) throws IOException{
         Button button = (Button) event.getSource();
         ioCurrent.setText(ioCurrent.getText() + button.getText());
     }
-
     @FXML public void buttonMultiClick(ActionEvent event) throws IOException{
         Button button = (Button) event.getSource();
         ioCurrent.setText(ioCurrent.getText() + " " + button.getText() + " ");
     }
-
     //----
-
     @FXML public void button9Click(ActionEvent event) throws IOException{
         Button button = (Button) event.getSource();
         ioCurrent.setText(ioCurrent.getText() + button.getText());
     }
-
     @FXML public void button6Click(ActionEvent event) throws IOException{
         Button button = (Button) event.getSource();
         ioCurrent.setText(ioCurrent.getText() + button.getText());
     }
-
     @FXML public void button3Click(ActionEvent event) throws IOException{
         Button button = (Button) event.getSource();
         ioCurrent.setText(ioCurrent.getText() + button.getText());
     }
-
     @FXML public void buttonDivisionClick(ActionEvent event) throws IOException{
         Button button = (Button) event.getSource();
         ioCurrent.setText(ioCurrent.getText() + " " + button.getText() + " ");
     }
-
-     //----
-     @FXML public void button0Click(ActionEvent event) throws IOException{
+    //----
+    @FXML public void button0Click(ActionEvent event) throws IOException{
         Button button = (Button) event.getSource();
         ioCurrent.setText(ioCurrent.getText() + button.getText());
     }
-
     @FXML public void buttonPointClick(ActionEvent event) throws IOException{
         Button button = (Button) event.getSource();
         ioCurrent.setText(ioCurrent.getText() + button.getText());
     }
-
     @FXML public void buttonCClick(ActionEvent event) throws IOException{
         ioCurrent.setText("");
         ioLast.setText("");
     }
-
     @FXML public void buttonEqualsClick(ActionEvent event) throws IOException{
         ioLast.setText(ioCurrent.getText());
         String result = matlabEval(ioCurrent.getText());
