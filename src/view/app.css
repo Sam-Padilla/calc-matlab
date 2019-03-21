@@ -22,7 +22,13 @@
 .app__buttons {
     -fx-background-color: #3C4857;
 }
-    
+
+.buttons__tag{
+    -fx-text-fill: #999DA3;
+    -fx-font: 14px arial;
+    -fx-font-weight: 4;
+}
+
 .buttons__button{
     -fx-background-color: #425062;
     -fx-text-fill: aliceblue;
