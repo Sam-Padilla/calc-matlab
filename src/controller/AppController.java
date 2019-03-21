@@ -36,10 +36,10 @@ public class AppController {
             ioCurrent.setStyle("-fx-font-size: 28.0");
         }
     }
-    private void ioSimpleWriter(String functionName){
+    private void ioSimpleWriter(String functionName, String text){
        Dialog dialog = new TextInputDialog("");
        dialog.setHeaderText(null);
-       dialog.setContentText("Ingresa el valor a evaluar");
+       dialog.setContentText(text);
        Optional<String> result = dialog.showAndWait();
        if (result.get() != "" || result.get() != " "){
           ioCurrent.setText(ioCurrent.getText() + functionName + "(" + result.get() + ") ");
@@ -77,13 +77,13 @@ public class AppController {
         ioCurrent.setText(matlabEval( function.replace("plot", "det")));
     }
     @FXML public void buttonSenClick(ActionEvent event) throws IOException{
-        ioSimpleWriter("sin");
+        ioSimpleWriter("sin", "Ingresa el valor a evaluar");
     }
     @FXML public void buttonLogClick(ActionEvent event) throws IOException{
-       ioSimpleWriter("log");
+       ioSimpleWriter("log", "Ingresa el valor a evaluar");
     }
     @FXML public void buttonFactClick(ActionEvent event) throws IOException{
-       ioSimpleWriter("factorial");
+       ioSimpleWriter("factorial", "Ingresa el valor a evaluar");
     }
     //----
     @FXML public void buttonESquaredClick(ActionEvent event) throws IOException{
@@ -110,31 +110,25 @@ public class AppController {
         ioCurrent.setText(matlabEval(function));
     }
     //----
-
-    @FXML public void buttonIClick(ActionEvent event) throws IOException{
-        Button button = (Button) event.getSource();
-        System.out.println(button.getText());
+    @FXML public void buttonMeClick(ActionEvent event) throws IOException{
+        ioSimpleWriter("median", "Ingresa el array de datos a evaluar");
     }
-
-    @FXML public void buttonIDesClick(ActionEvent event) throws IOException{
-        Button button = (Button) event.getSource();
-        System.out.println(button.getText());
+    @FXML public void buttonDesvClick(ActionEvent event) throws IOException{
+        ioSimpleWriter("std", "Ingresa el array de datos a evaluar");
     }
-
-    @FXML public void buttonDClick(ActionEvent event) throws IOException{
-        Button button = (Button) event.getSource();
-        System.out.println(button.getText());
+    @FXML public void buttonVariClick(ActionEvent event) throws IOException{
+        ioSimpleWriter("var", "Ingresa el array de datos a evaluar");
     }
-
-    @FXML public void buttonDDefClick(ActionEvent event) throws IOException{
-        Button button = (Button) event.getSource();
-        System.out.println(button.getText());
+    @FXML public void buttonRLClick(ActionEvent event) throws IOException{
+        String[] rows = ioArrayResults(new String[]{"Array X","Array Y"});
+        String function = "scatter("+rows[0] +"," + rows[1] + ");" +
+                          "line("+rows[0] +"," + rows[1] + ")";
+        ioCurrent.setText(matlabEval(function));
     }
-
     //----
 
     @FXML public void buttonUndefinedClick(ActionEvent event) throws IOException{
-        ioSimpleWriter("plot");
+        ioSimpleWriter("plot", "proof");
     }
 
     //@FXML public void buttonUndefinedClick(ActionEvent event) throws IOException{

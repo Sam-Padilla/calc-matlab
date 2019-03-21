@@ -29,10 +29,10 @@
             <Button layoutX="130.0" layoutY="145.0" mnemonicParsing="false" onAction="#buttonIDefClick" styleClass="buttons__button" text="Idef" />
             <Button layoutX="130.0" layoutY="205.0" mnemonicParsing="false" onAction="#buttonnDClick" styleClass="buttons__button" text="nd" />
             
-            <Button layoutX="235.0" layoutY="25.0" mnemonicParsing="false" onAction="#buttonIClick" styleClass="buttons__button" text="I" />
-            <Button layoutX="235.0" layoutY="85.0" mnemonicParsing="false" onAction="#buttonIDefClick" styleClass="buttons__button" text="I(def)" />
-            <Button layoutX="235.0" layoutY="145.0" mnemonicParsing="false" onAction="#buttonDClick" styleClass="buttons__button" text="D" />
-            <Button layoutX="235.0" layoutY="205.0" mnemonicParsing="false" onAction="#buttonDDefClick" styleClass="buttons__button" text="D(def)" />
+            <Button layoutX="235.0" layoutY="25.0" mnemonicParsing="false" onAction="#buttonMeClick" styleClass="buttons__button" text="Me" />
+            <Button layoutX="235.0" layoutY="85.0" mnemonicParsing="false" onAction="#buttonDesvClick" styleClass="buttons__button" text="Desv" />
+            <Button layoutX="235.0" layoutY="145.0" mnemonicParsing="false" onAction="#buttonVariClick" styleClass="buttons__button" text="Vari" />
+            <Button layoutX="235.0" layoutY="205.0" mnemonicParsing="false" onAction="#buttonRLClick" styleClass="buttons__button" text="RL" />
             
             <Button layoutX="340.0" layoutY="25.0" mnemonicParsing="false" onAction="#buttonUndefinedClick" styleClass="buttons__button" text="P+" />
             <Button layoutX="340.0" layoutY="85.0" mnemonicParsing="false" onAction="#buttonUndefinedClick" styleClass="buttons__button" text="P+" />
