@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29bfd707-b228-4434-860f-f730391571c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nbproject/jfx-impl_backup.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/engine.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/engine.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/jfx-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/jfx-impl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/configs/Run_in_Browser.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/configs/Run_in_Browser.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AppController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/app.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/app.fxml" afterDir="false" />
     </list>
@@ -52,14 +42,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="fxml" value="16" />
-          <entry key="java" value="480" />
+          <entry key="fxml" value="24" />
+          <entry key="java" value="1009" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="480" />
-          <entry key="XML" value="16" />
+          <entry key="JAVA" value="1009" />
+          <entry key="XML" value="24" />
         </counts>
       </usages-collector>
     </session>
@@ -69,12 +59,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controller/AppController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+            <state relative-caret-position="264">
+              <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
               <folding>
                 <element signature="e#510#1084#0" />
                 <element signature="e#1102#1258#0" />
-                <element signature="e#1492#1598#0" />
                 <element signature="e#1609#1717#0" />
                 <element signature="e#1261#1440#0" />
                 <element signature="e#1900#2014#0" />
@@ -86,7 +75,6 @@
                 <element signature="e#2601#2777#0" />
                 <element signature="e#2787#2960#0" />
                 <element signature="e#2970#3146#0" />
-                <element signature="e#3172#3373#0" />
                 <element signature="e#3383#3462#0" />
                 <element signature="e#3785#3994#0" />
                 <element signature="e#4014#4208#0" />
@@ -104,7 +92,6 @@
                 <element signature="e#6547#6753#0" />
                 <element signature="e#6764#6962#0" />
                 <element signature="e#6976#7110#0" />
-                <element signature="e#7121#7347#0" />
               </folding>
             </state>
           </provider>
@@ -120,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/app.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="24" column="139" selection-start-line="24" selection-start-column="139" selection-end-line="24" selection-end-column="139" />
+            <state relative-caret-position="206">
+              <caret line="21" column="94" selection-start-line="21" selection-start-column="94" selection-end-line="21" selection-end-column="94" />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -203,7 +190,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553122297102" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553130218388" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -252,12 +239,12 @@
       <workItem from="1553110710027" duration="284000" />
       <workItem from="1553115381510" duration="513000" />
       <workItem from="1553115924804" duration="1240000" />
-      <workItem from="1553117196851" duration="4858000" />
+      <workItem from="1553117196851" duration="10135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7599000" />
+    <option name="totallyTimeSpent" value="12876000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -304,7 +291,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/controller/AppController.java</url>
-          <line>154</line>
+          <line>167</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -312,14 +299,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/view/app.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="24" column="139" selection-start-line="24" selection-start-column="139" selection-end-line="24" selection-end-column="139" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -339,14 +318,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/app.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="21" column="94" selection-start-line="21" selection-start-column="94" selection-end-line="21" selection-end-column="94" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        <state relative-caret-position="264">
+          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
           <folding>
             <element signature="e#510#1084#0" />
             <element signature="e#1102#1258#0" />
-            <element signature="e#1492#1598#0" />
             <element signature="e#1609#1717#0" />
             <element signature="e#1261#1440#0" />
             <element signature="e#1900#2014#0" />
@@ -358,7 +344,6 @@
             <element signature="e#2601#2777#0" />
             <element signature="e#2787#2960#0" />
             <element signature="e#2970#3146#0" />
-            <element signature="e#3172#3373#0" />
             <element signature="e#3383#3462#0" />
             <element signature="e#3785#3994#0" />
             <element signature="e#4014#4208#0" />
@@ -376,7 +361,6 @@
             <element signature="e#6547#6753#0" />
             <element signature="e#6764#6962#0" />
             <element signature="e#6976#7110#0" />
-            <element signature="e#7121#7347#0" />
           </folding>
         </state>
       </provider>

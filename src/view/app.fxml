@@ -19,7 +19,7 @@
          </children></AnchorPane>
       <AnchorPane layoutX="0.0" layoutY="128.0" prefHeight="282.0" prefWidth="875.0" styleClass="app__buttons">
          <children>
-            <Button layoutX="25.0" layoutY="25.0" mnemonicParsing="false" onAction="#buttonSquareClick" styleClass="buttons__button" text="²√" />
+            <Button layoutX="25.0" layoutY="25.0" mnemonicParsing="false" onAction="#buttonM33Click" styleClass="buttons__button" text="DM3*3" />
             <Button layoutX="25.0" layoutY="85.0" mnemonicParsing="false" onAction="#buttonSenClick" styleClass="buttons__button" text="Sen" />
             <Button layoutX="25.0" layoutY="145.0" mnemonicParsing="false" onAction="#buttonLogClick" styleClass="buttons__button" text="Log" />
             <Button layoutX="25.0" layoutY="205.0" mnemonicParsing="false" onAction="#buttonFactClick" styleClass="buttons__button" text="!" />

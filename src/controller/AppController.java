@@ -11,7 +11,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Dialog;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextInputDialog;
-import javafx.scene.text.Font;
 
 public class AppController {
 
@@ -37,28 +36,43 @@ public class AppController {
             ioCurrent.setStyle("-fx-font-size: 28.0");
         }
     }
-    private void addToIoCurrent(String functionName){
+    private void ioWriter(String functionName){
        Dialog dialog = new TextInputDialog("");
        dialog.setHeaderText(null);
        dialog.setContentText("Ingresa el valor a evaluar");
        Optional<String> result = dialog.showAndWait();
-       if (result.get() != " "){
+       if (result.get() != "" || result.get() != " "){
           ioCurrent.setText(ioCurrent.getText() + functionName + "(" + result.get() + ") ");
           ioCurrentSizeChanger();
        }
     }
     //----
-    @FXML public void buttonSquareClick(ActionEvent event) throws IOException{
-        addToIoCurrent("sqrt");
+    @FXML public void buttonM33Click(ActionEvent event) throws IOException{
+        String[] rows = new String[3];
+        String function = "plot([";
+        for (int i = 0; i < 3; i++) {
+            Dialog dialog = new TextInputDialog("");
+            dialog.setHeaderText("Ingrese la fila #" + (i + 1));
+            dialog.setContentText("Separe los valores por \",\" ");
+
+            String result = ((Optional<String>) dialog.showAndWait()).get();
+            if (!result.equals("") || !result.equals(" ")) {
+                rows[i] = result.replace(",", " ");
+                function += (i < 2) ? rows[i] + ";" : rows[i] + "])";
+            }
+        }
+        matlabEval(function);
+        ioCurrent.setText(matlabEval( function.replace("plot", "det")));
+
     }
     @FXML public void buttonSenClick(ActionEvent event) throws IOException{
-        addToIoCurrent("sin");
+        ioWriter("sin");
     }
     @FXML public void buttonLogClick(ActionEvent event) throws IOException{
-       addToIoCurrent("log");
+       ioWriter("log");
     }
     @FXML public void buttonFactClick(ActionEvent event) throws IOException{
-       addToIoCurrent("factorial");
+       ioWriter("factorial");
     }
 
     //----
@@ -108,8 +122,7 @@ public class AppController {
     //----
 
     @FXML public void buttonUndefinedClick(ActionEvent event) throws IOException{
-        Button button = (Button) event.getSource();
-        System.out.println(button.getText() + "EN CONSTRUCCIÓN");
+        ioWriter("plot");
     }
 
     //@FXML public void buttonUndefinedClick(ActionEvent event) throws IOException{
